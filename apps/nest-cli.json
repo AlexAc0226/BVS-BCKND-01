@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "common": {
+      "type": "library",
+      "root": "libs/common",
+      "entryFile": "index",
+      "sourceRoot": "libs/common/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/common/tsconfig.lib.json"
+      }
+    },
+    "db-client": {
+      "type": "library",
+      "root": "libs/db-client",
+      "entryFile": "index",
+      "sourceRoot": "libs/db-client/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/db-client/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
